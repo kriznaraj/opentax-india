@@ -16,6 +16,7 @@ apps/
   api/
   worker/
 packages/
+  document-intelligence/
   tax-engine/
   form16-parser/
   itr-json/
@@ -30,6 +31,7 @@ docs/
 - TypeScript strict mode
 - ESLint + Prettier + Vitest
 - Next.js (web), NestJS (api), Node worker
+- LangGraph-powered pluggable extraction agent with provider-agnostic LLM API
 
 ## Quick Start
 
